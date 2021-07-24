@@ -1,0 +1,3 @@
+- 👋 Hi, I’m @NaulaN
+- 👀 I’m interested in Coding
+- 🌱 I’m currently learning Java | C
