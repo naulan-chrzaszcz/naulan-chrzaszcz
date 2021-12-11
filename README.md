@@ -9,4 +9,4 @@
 - 🥉 Code en Python principalement.
 - 💼 Actuellement en étude en BUT INFO.
 
-🌐 ![Mon site web](https://www.chrz-development.fr)
+🌐 __[Mon site web](https://www.chrz-development.fr)__
