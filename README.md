@@ -5,7 +5,6 @@
 **A propos de moi !**
 - 👋 Je m'appelle CHRZASZCZ Naulan.
 - ❤ Je suis passionné dans la programmation.
-- 🌱 J'apprend actuellement le Java et le C.
 - 🥉 Code en Python principalement.
 - 💼 Actuellement en étude en BUT INFO.
 
