@@ -7,12 +7,51 @@
 [![Discord Badge](https://img.shields.io/badge/-Discord-7e60bf?style=flat-square&logo=Discord&logoColor=purple)](https://discord.gg/yEvBg8CPaM)
 
 😊 **A propos de moi:**
-- 🏷️ Je m'appelle CHRZASZCZ Naulan.
-- 🇵🇱 D'origine Polognais.
-- 🔉 J'aime un peut trop la HardBass bizarrement. 👀
-- ❤ Je suis passionné dans la programmation depuis que j'ai 15ans.
+````java
+package fr.naulanchrzaszcz;
+
+/**
+ * @see fr.naulanchrzaszcz.Coffee
+ * @see fr.naulanchrzaszcz.Breakfast
+ */
+public class Naulan extends Me implements Humours, Connerie, Maths
+{
+  public String familyName = "CHRZASZCZ";
+  public String name = "Naulan";
+  public String origin = "🇵🇱";
+  public String live = "🇫🇷";
+  
+  public String study = "💼 Actuellement en étude en BUT INFO à l'IUT de Montreuil."
+  public String[] musicStyle = {
+    "J'aime un peut trop la HardBass bizarrement. 👀", 
+    "Sinon, de la musique chill."
+  };
+  
+  
+  /**
+   * @param age Determines the age of the person who owns the Github
+   * @param heights Define the height of a person in meters
+   */
+  public Naulan(int age, double heights) 
+  {
+    super(18, 1.96);
+    
+    try {
+      this.wakeUp(new Coffee(), new Breakfast());
+    catch(CantWakeUp cantWakeUp) { cantWakeUp.force() }
+  }
+  
+  public void wakeUp(Coffee coffee, Breakfast breakfast) 
+  {
+    if (((int) (1+Math.random*2)) == 1)
+      coffee.drink();
+    else new Tea().drink();
+    
+    breakfast.eat((this.wallet.getMoney() < 0) ? "cereals" : "chocolate bread");
+  }
+}
+````
 - <img src="https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg" width="17" height="17"> Membre sur Github depuis: ![badge](https://badges.pufler.dev/years/NaulaN)
-- 💼 Actuellement en étude en BUT INFO à l'IUT de Montreuil.
 - 🌐 __[Mon site web](https://www.chrz-development.fr)__
 
 <p align="center"><img src="https://github-readme-stats.vercel.app/api/top-langs/?username=NaulaN&layout=compact&count_private=true&theme=gruvbox)](https://github.com/anuraghazra/github-readme-stats"></p>
