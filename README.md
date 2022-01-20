@@ -6,8 +6,6 @@
 [![Instagram Badge](https://img.shields.io/badge/-Instagram-e4405f?style=flat-square&logo=Instagram&logoColor=white)](https://www.instagram.com/naulan.chrzaszcz/) [![YouTube Badge](https://img.shields.io/badge/-Youtube-911010?style=flat-square&logo=Youtube&logoColor=red)](https://www.youtube.com/channel/UCbl4AHVket_DNhBzQG56f7w) 
 [![Discord Badge](https://img.shields.io/badge/-Discord-7e60bf?style=flat-square&logo=Discord&logoColor=purple)](https://discord.gg/yEvBg8CPaM)
 
-<img src='https://random-memer.herokuapp.com/' title="Meme" alt="Please refresh the page if the meme doesn't show up.">
-
 😊 **A propos de moi:**
 - 🏷️ Je m'appelle CHRZASZCZ Naulan.
 - 🇵🇱 D'origine Polognais.
