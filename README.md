@@ -22,7 +22,7 @@ public class Naulan extends Me implements Humours, Connerie, Maths
   public String live = "🇫🇷";
   
   public String study = "💼 Actuellement en étude en BUT INFO à l'IUT de Montreuil."
-  public String[] musicStyle = {
+  public String[] musicStyle = new String[] {
     "J'aime un peut trop la HardBass bizarrement. 👀", 
     "Sinon, de la musique chill."
   };
@@ -36,9 +36,21 @@ public class Naulan extends Me implements Humours, Connerie, Maths
   {
     super(18, 1.96);
     
-    try {
-      this.wakeUp(new Coffee(), new Breakfast());
-    catch(CantWakeUp cantWakeUp) { cantWakeUp.force() }
+    while(!this.isNotDead()) {
+      // In my house
+      try {
+        this.wakeUp(new Coffee(), new Breakfast());
+      catch(CantWakeUp cantWakeUp) { cantWakeUp.force(); }
+      
+      // In a entreprise or in my university
+      this.work();
+      this.learn();
+      
+      // In my house
+      this.eat();
+      this.sleep();
+    }
+    
   }
   
   public void wakeUp(Coffee coffee, Breakfast breakfast) 
