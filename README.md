@@ -8,13 +8,20 @@
 
 😊 **A propos de moi:**
 ````java
-package fr.naulanchrzaszcz;
+package fr.naulanchrzaszcz.aboutme;
+
+import fr.naulanchrzaszcz.aboutme.Me;
+
+import fr.naulanchrzaszcz.other.Coffee;
+import fr.naulanchrzaszcz.other.Breakfast;
+import fr.naulanchrzaszcz.other.Tea;
+
 
 /**
- * @see fr.naulanchrzaszcz.Coffee
- * @see fr.naulanchrzaszcz.Breakfast
+ * @see fr.naulanchrzaszcz.other.Coffee
+ * @see fr.naulanchrzaszcz.other.Breakfast
  */
-public class Naulan extends Me implements Humours, Connerie, Maths
+public class Naulan extends Me implements Humours, Connerie
 {
   public String familyName = "CHRZASZCZ";
   public String name = "Naulan";
