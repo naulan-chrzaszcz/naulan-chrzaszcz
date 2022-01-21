@@ -47,7 +47,7 @@ public class Naulan extends Me implements Humours, Connerie
       // In my house
       try {
         this.wakeUp(new Coffee(), new Breakfast());
-      catch(CantWakeUp cantWakeUp) { cantWakeUp.force(); }
+      catch(CantWakeUp cantWakeUp) { cantWakeUp.forceWakeUp(); }
       
       // In a entreprise or in my university
       this.work();
