@@ -1,7 +1,9 @@
 ![Banner Profile](https://eapi.pcloud.com/getpubthumb?code=XZmubJZO3RLKrQ4bwSiOupYtRg78SzGx3N7&linkpassword=undefined&size=1918x378&crop=0&type=auto)
 
-[![Instagram Badge](https://img.shields.io/badge/-Instagram-e4405f?style=flat-square&logo=Instagram&logoColor=white)](https://www.instagram.com/naulan.chrzaszcz/) [![YouTube Badge](https://img.shields.io/badge/-Youtube-911010?style=flat-square&logo=Youtube&logoColor=red)](https://www.youtube.com/channel/UCbl4AHVket_DNhBzQG56f7w) 
-[![Discord Badge](https://img.shields.io/badge/-Discord-7e60bf?style=flat-square&logo=Discord&logoColor=purple)](https://discord.gg/yEvBg8CPaM)
+[![DiscordBadge](https://img.shields.io/badge/Discord-7289DA?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/yEvBg8CPaM)
+[![InstagramBadge](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/naulan.chrzaszcz/)
+[![TwitchBadge](https://img.shields.io/badge/Twitch-9146FF?style=for-the-badge&logo=twitch&logoColor=white)](https://www.twitch.tv/NaulaN_CHRZdev)
+[![YouTubeBadge](https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/channel/UCbl4AHVket_DNhBzQG56f7w) 
 
 <img src="https://c.tenor.com/nebZyl8oN7IAAAAj/wave-hello.gif" width="40" height="40"> [![Welcome Typing SVG](https://readme-typing-svg.herokuapp.com?color=%2336BCF7&lines=Bienvenue+sur+mon+Github+!)](https://git.io/typing-svg)
 
