@@ -55,8 +55,9 @@ public class Naulan extends Human implements Humours, Connerie
     }
   }
   
-  public String toString() {
-    StringBuilder aboutme = new StringBuilder;
+  public String toString() 
+  {
+    StringBuilder aboutme = new StringBuilder();
     aboutme.append("🏷️ Je m'appelle " + this.familyName + " " + this.name);
     aboutme.append("\n💼 Actuellement en étude en " + this.study);
     aboutme.append("\n📍 Je suis d'origine " + this.origin);
