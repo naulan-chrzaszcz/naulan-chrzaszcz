@@ -20,18 +20,15 @@ import fr.naulanchrzaszcz.other.Tea;
  * @see fr.naulanchrzaszcz.other.Coffee
  * @see fr.naulanchrzaszcz.other.Breakfast
  */
-public class Naulan extends Me implements Humours, Connerie
+public class Naulan extends Human implements Humours, Connerie
 {
-  public String familyName = "CHRZASZCZ";
-  public String name = "Naulan";
-  public String origin = "🇵🇱";
-  public String live = "🇫🇷";
+  private String familyName = "CHRZASZCZ";
+  private String name = "Naulan";
+  private String origin = "🇵🇱";
+  private String live = "🇫🇷";
   
-  public String study = "💼 Actuellement en étude en BUT INFO à l'IUT de Montreuil."
-  public String[] musicStyle = new String[] {
-    "J'aime un peut trop la HardBass bizarrement. 👀", 
-    "Sinon, de la musique chill."
-  };
+  private String study = "BUT INFO à l'IUT de Montreuil."
+  private String[] musicsStyle = new String[] {"HardBass musics", "Chill musics"};
   
   
   /**
@@ -56,7 +53,17 @@ public class Naulan extends Me implements Humours, Connerie
       this.eat();
       this.sleep();
     }
+  }
+  
+  public String toString() {
+    StringBuilder aboutme = new StringBuilder;
+    aboutme.append("🏷️ Je m'appelle " + this.familyName + " " + this.name);
+    aboutme.append("\n💼 Actuellement en étude en " + this.study);
+    aboutme.append("\n📍 Je suis d'origine " + this.origin);
+    aboutme.append("\n🏡 Je vie en " + this.live);
+    aboutme.append("\n🎵 J'écoute régulierement de la " + this.musicsStyle[0] + " et de la " + this.musicsStyle[1])
     
+    return aboutme;
   }
   
   public void wakeUp(Coffee coffee, Breakfast breakfast) 
