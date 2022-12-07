@@ -7,14 +7,13 @@
 <a href="https://www.youtube.com/channel/UCbl4AHVket_DNhBzQG56f7w"><img alt="Youtube" src="https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white"></a>
 </p>
   
-<h1>Bienvenue sur mon Github</h1>
+<h1>Welcome to my Github profile</h1>
 
-- <img src="https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg" width="17" height="17"> Membre sur Github depuis: ![badge](https://badges.pufler.dev/years/NaulaN)
-- 🌐 __[Mon site web](https://www.chrz-development.fr)__
+🌐 __[My web site](https://www.chrz-development.fr)__
 
 <p align="center"><img src="https://github-readme-stats.vercel.app/api/top-langs/?username=NaulaN&layout=compact&count_private=true&theme=gruvbox)](https://github.com/anuraghazra/github-readme-stats"></p>
 
-<p align="center">⬇️ <b>Les languages de programmation que j'utilise régulierement</b> ⬇️</p>
+<p align="center">⬇️ <b>The langages that i used frequently</b> ⬇️</p>
 
 <p align="center"><code><img src="https://developer.asustor.com/uploadIcons/0020_999_1596443479_JAVA.png" width="25" height="25"></code>
 <code><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/1200px-Python-logo-notext.svg.png" width="25" height="25"></code>
@@ -24,40 +23,27 @@
 <code><img src="https://upload.wikimedia.org/wikipedia/commons/2/29/Postgresql_elephant.svg" width="25" height="25"></code>
 </p>
 
-😊 **A propos de moi:**
+😊 **About me:**
 ```java
-package fr.naulanchrzaszcz.aboutme;
-
-import fr.naulanchrzaszcz.aboutme.Me;
-
-import fr.naulanchrzaszcz.other.Coffee;
-import fr.naulanchrzaszcz.other.Breakfast;
-import fr.naulanchrzaszcz.other.Tea;
-
-
 public class Naulan extends Human implements Humours, Connerie
 {
   private final String familyName = "CHRZASZCZ";
   private final String name = "Naulan";
   private final String origin = "🇵🇱";
   private final String live = "🇫🇷";
-  private final String study = "BUT INFO à l'IUT de Montreuil."
+  private final String study = "BUT INFO at l'IUT of Montreuil."
   
   public @Override String toString() 
   {
     final StringBuilder aboutme = new StringBuilder();
-    aboutme.append("🏷️ Je m'appelle " + this.familyName + " " + this.name);
-    aboutme.append("\n💼 Actuellement en étude en " + this.study);
-    aboutme.append("\n📍 Je suis d'origine " + this.origin);
-    aboutme.append("\n🏡 Je vie en " + this.live);
+    aboutme.append("🏷️ My name is " + this.familyName + " " + this.name);
+    aboutme.append("\n💼 I study at " + this.study);
+    aboutme.append("\n📍 I'm from " + this.origin);
+    aboutme.append("\n🏡 I live in " + this.live);
     
     return aboutme;
   }
   
-  /**
-   * @param age Determines the age of the person who owns the Github
-   * @param heights Define the height of a person in meters
-   */
   public Naulan(int age, double heights) 
   {
     super(19, 1.98);
