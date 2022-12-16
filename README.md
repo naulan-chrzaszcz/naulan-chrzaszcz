@@ -28,14 +28,14 @@
 
 😊 **About me:**
 ```java
-public class Naulan extends Human implements Humours, Connerie
+public class Naulan extends Human implements Humours, Connerie 
 {
   private final String familyName = "CHRZASZCZ";
   private final String name = "Naulan";
   private final String origin = "🇵🇱";
   private final String live = "🇫🇷";
   private final String study = "BUT INFO at l'IUT of Montreuil."
-  
+
   public @Override String toString() 
   {
     final StringBuilder aboutme = new StringBuilder();
@@ -43,32 +43,32 @@ public class Naulan extends Human implements Humours, Connerie
     aboutme.append("\n💼 I study at " + this.study);
     aboutme.append("\n📍 I'm from " + this.origin);
     aboutme.append("\n🏡 I live in " + this.live);
-    
+
     return aboutme;
   }
-  
+
   public Naulan(int age, double heights) 
   {
     super(19, 1.98);
-    
-  	while(!this.isNotDead()) {
+
+    while (!this.isNotDead()) {
       try {
         this.wakeUp(new Coffee(), new Breakfast());
-      catch(CantWakeUp cantWakeUp) { cantWakeUp.forceWakeUp(); }
-      
+      } catch(CantWakeUp cantWakeUp){cantWakeUp.forceWakeUp();}
+
       this.work();
       this.learn();
       this.eat();
       this.sleep();
     }
   }
-  
-  public void wakeUp(Coffee coffee, Breakfast breakfast) throws CantWakeUp
+
+  public void wakeUp (Coffee coffee, Breakfast breakfast) throws CantWakeUp
   {
-    if (((int) (1+Math.random*2)) == 1)
+    if (((int) (1 + Math.random * 2)) == 1)
       coffee.drink();
     else new Tea().drink();
-    
+
     breakfast.eat((this.wallet.getMoney() < 0) ? "cereals" : "chocolate bread");
   }
 }
