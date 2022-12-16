@@ -11,7 +11,10 @@
 
 🌐 __[My web site](https://www.chrz-development.fr)__
 
-<p align="center"><img src="https://github-readme-stats.vercel.app/api/top-langs/?username=NaulaN&layout=compact&count_private=true&theme=gruvbox)](https://github.com/anuraghazra/github-readme-stats"></p>
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=NaulaN&layout=compact&count_private=true&theme=gruvbox)](https://github.com/anuraghazra/github-readme-stats">
+  <img src="https://github-readme-stats.vercel.app/api?username=anuraghazra&show_icons=true&theme=radical" width="420">
+</p>
 
 <p align="center">⬇️ <b>The langages that i used frequently</b> ⬇️</p>
 
@@ -48,7 +51,7 @@ public class Naulan extends Human implements Humours, Connerie
   {
     super(19, 1.98);
     
-    while(!this.isNotDead()) {
+  	while(!this.isNotDead()) {
       try {
         this.wakeUp(new Coffee(), new Breakfast());
       catch(CantWakeUp cantWakeUp) { cantWakeUp.forceWakeUp(); }
