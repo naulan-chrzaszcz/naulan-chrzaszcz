@@ -13,7 +13,7 @@
 
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=NaulaN&layout=compact&count_private=true&theme=gruvbox)](https://github.com/NaulaN/github-readme-stats">
-  <img src="https://github-readme-stats.vercel.app/api?username=anuraghazra&show_icons=true&theme=radical" width="420">
+  <img src="https://github-readme-stats.vercel.app/api?username=NaulaN&show_icons=true&theme=radical" width="420">
 </p>
 
 <p align="center">⬇️ <b>The langages that i used frequently</b> ⬇️</p>
