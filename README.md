@@ -28,15 +28,16 @@
 
 😊 **About me:**
 ```java
-public class Naulan extends Human implements Humours, Connerie 
+public class Naulan extends Human implements Humours 
 {
   private final String familyName = "CHRZASZCZ";
   private final String name = "Naulan";
-  private final String origin = "🇵🇱";
-  private final String live = "🇫🇷";
-  private final String study = "BUT INFO at l'IUT of Montreuil."
-
-  public @Override String toString() 
+  private final Country origin = Country.POLISH;
+  private final Country live = Country.FRANCE;
+  private final IUT study = IUT.MONTREUIL(Diploma.BUT.INFO);
+  
+  @Override
+  public String toString()
   {
     final StringBuilder aboutme = new StringBuilder();
     aboutme.append("🏷️ My name is " + this.familyName + " " + this.name);
@@ -47,18 +48,20 @@ public class Naulan extends Human implements Humours, Connerie
     return aboutme;
   }
 
-  public Naulan(int age, double heights) 
+  public Naulan() 
   {
-    super(19, 1.98);
-
-    while (!this.isNotDead()) {
+    while (!this.notDead()) {
       try {
         this.wakeUp(new Coffee(), new Breakfast());
-      } catch(CantWakeUp cantWakeUp){cantWakeUp.forceWakeUp();}
+      } catch(Exception cantWakeUp) {
+	  	this.hardWakeUp();
+	  }
 
       this.work();
       this.learn();
       this.eat();
+	  if (Time.haveEnoughTime())
+	  	this.play(Game.BEAM_NG);
       this.sleep();
     }
   }
