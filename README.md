@@ -16,37 +16,13 @@
   <img src="https://github-readme-stats.vercel.app/api?username=NaulaN&show_icons=true&theme=radical" width="420">
 </p>
 
-<p align="center">⬇️ <b>The langages that i used frequently</b> ⬇️</p>
-
-<p align="center"><code><img src="https://developer.asustor.com/uploadIcons/0020_999_1596443479_JAVA.png" width="25" height="25"></code>
-<code><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/1200px-Python-logo-notext.svg.png" width="25" height="25"></code>
-<code><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/512px-HTML5_logo_and_wordmark.svg.png" width="25" height="25"></code>
-<code><img src="https://upload.wikimedia.org/wikipedia/commons/d/d5/CSS3_logo_and_wordmark.svg" width="25" height="25"></code>
-<code><img src="https://upload.wikimedia.org/wikipedia/commons/9/99/Unofficial_JavaScript_logo_2.svg" width="25" height="25"></code>
-<code><img src="https://upload.wikimedia.org/wikipedia/commons/2/29/Postgresql_elephant.svg" width="25" height="25"></code>
-</p>
-
 😊 **About me:**
 ```java
-public class Naulan extends Human implements Humours 
+public class Naulan extends Human
 {
-  private final String familyName = "CHRZASZCZ";
-  private final String name = "Naulan";
   private final Country origin = Country.POLISH;
   private final Country live = Country.FRANCE;
   private final IUT study = IUT.MONTREUIL(Diploma.BUT.INFO);
-  
-  @Override
-  public String toString()
-  {
-    final StringBuilder aboutme = new StringBuilder();
-    aboutme.append("🏷️ My name is " + this.familyName + " " + this.name);
-    aboutme.append("\n💼 I study at " + this.study);
-    aboutme.append("\n📍 I'm from " + this.origin);
-    aboutme.append("\n🏡 I live in " + this.live);
-
-    return aboutme;
-  }
 
   public Naulan() 
   {
@@ -54,19 +30,19 @@ public class Naulan extends Human implements Humours
       try {
         this.wakeUp(new Coffee(), new Breakfast());
       } catch(Exception cantWakeUp) {
-	  	this.hardWakeUp();
+	  	this.forceWakeUp();
 	  }
 
       this.work();
       this.learn();
       this.eat();
-	  if (Time.haveEnoughTime())
+      if (Time.haveEnoughTime())
 	  	this.play(Game.BEAM_NG);
       this.sleep();
     }
   }
 
-  public void wakeUp (Coffee coffee, Breakfast breakfast) throws CantWakeUp
+  public void wakeUp(Coffee coffee, Breakfast breakfast) throws CantWakeUp
   {
     if (((int) (1 + Math.random * 2)) == 1)
       coffee.drink();
@@ -76,3 +52,13 @@ public class Naulan extends Human implements Humours
   }
 }
 ```
+
+<p align="center">⬇️ <b>The langages that i used frequently</b> ⬇️</p>
+
+<p align="center"><code><img src="https://developer.asustor.com/uploadIcons/0020_999_1596443479_JAVA.png" width="25" height="25"></code>
+<code><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/1200px-Python-logo-notext.svg.png" width="25" height="25"></code>
+<code><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/512px-HTML5_logo_and_wordmark.svg.png" width="25" height="25"></code>
+<code><img src="https://upload.wikimedia.org/wikipedia/commons/d/d5/CSS3_logo_and_wordmark.svg" width="25" height="25"></code>
+<code><img src="https://upload.wikimedia.org/wikipedia/commons/9/99/Unofficial_JavaScript_logo_2.svg" width="25" height="25"></code>
+<code><img src="https://upload.wikimedia.org/wikipedia/commons/2/29/Postgresql_elephant.svg" width="25" height="25"></code>
+</p>
