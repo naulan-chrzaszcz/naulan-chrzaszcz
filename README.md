@@ -12,8 +12,8 @@
 🌐 __[My web site](https://www.chrz-development.fr)__
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=NaulaN&layout=compact&count_private=true&theme=gruvbox)](https://github.com/NaulaN/github-readme-stats">
-  <img src="https://github-readme-stats.vercel.app/api?username=NaulaN&show_icons=true&theme=radical" width="420">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=naulan-chrzaszcz&layout=compact&count_private=true&theme=gruvbox)](https://github.com/NaulaN/github-readme-stats">
+  <img src="https://github-readme-stats.vercel.app/api?username=naulan-chrzaszcz&show_icons=true&theme=radical" width="420">
 </p>
 
 😊 **About me:**
