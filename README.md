@@ -5,6 +5,5 @@
 <a href=""><img alt="PayPal" src="https://img.shields.io/badge/PayPal-00457C?style=for-the-badge&logo=paypal&logoColor=white"></a>
 <a href="https://www.linkedin.com/in/naulan-chrzaszcz/"><img alt="Linkedin" src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"></a>
 <a href="https://www.instagram.com/naulan.chrzaszcz/"><img alt="Instagram" src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white"></a>
+<a href="https://www.naulan-chrzaszcz.fr/"><img alt="Firefox" src="https://img.shields.io/badge/Portfolio-FF7139?style=for-the-badge&logo=Firefox-Browser&logoColor=white"></a>
 </p>
-
-🌐 __[Portefolio](https://www.naulan-chrzaszcz.fr)__
